@@ -26,3 +26,17 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+function random_quote(){
+
+    const quotes = 
+    ['Aim for the stars so that when you fail, you fool on the moon instead',
+    'I love Kanye', 'Previous on Marvels agents of sheild'];
+
+    const quote = quotes[Math.floor(Math.random() * greetings.length)];
+
+    const random_quoteContainer = document.getElementById('random_quoteContainer');
+    random_quoteContainer.innerHTML = quote
+
+
+}
